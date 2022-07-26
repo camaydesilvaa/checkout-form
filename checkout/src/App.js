@@ -1,5 +1,5 @@
 import './App.css';
-import Checkout from './components/Checkout.js';
+import Checkout from './components/Checkout';
 
 function App() {
   return (

@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+.headerText {
+  font-size: small;
+  margin-right: 5px;
+}
+
+.iconColor {
+  color: #81c784;
+}
+
+.title {
+  font-size:large;
+  margin-right: 10px;
+}
+.slash {
+  font-size: medium;
+  color: rgb(192, 186, 186);
+}
+
+
