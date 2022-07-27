@@ -37,22 +37,12 @@
   }
 }
 
-.headerText {
-  font-size: small;
-  margin-right: 5px;
+.logo {
+  max-width: 100%;
+  height: auto;
 }
 
-.iconColor {
-  color: #81c784;
+.headerBar {
+  background-color: #fff;
 }
-
-.title {
-  font-size:large;
-  margin-right: 10px;
-}
-.slash {
-  font-size: medium;
-  color: rgb(192, 186, 186);
-}
-
 

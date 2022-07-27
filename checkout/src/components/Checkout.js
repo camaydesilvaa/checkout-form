@@ -15,10 +15,7 @@ import { createTheme, ThemeProvider } from '@mui/material/styles';
 import AddressForm from './AddressForm';
 import PaymentForm from './PaymentForm';
 import Review from './Review';
-import { Avatar } from '@mui/material';
-import WorkIcon from '@mui/icons-material/Work';
-import { green } from '@mui/material/colors';
-import Grid from '@mui/material/Grid';
+import shein from './shein.jpeg';
 
 function Copyright() {
   return (
@@ -73,21 +70,10 @@ export default function Checkout() {
           borderBottom: (t) => `1px solid ${t.palette.divider}`,
         }}
       >
-        <Toolbar> 
-              <Typography variant="h2" noWrap>
-           <h4 className='title'>SHEIN</h4>
-          </Typography>
-          <Typography variant="h1" noWrap className='slash'>
-           /
-          </Typography>
-          <Grid>
-            <Avatar sx={{ bgcolor: green[300], height: 25, width: 25}} className='headerText'>
-           <WorkIcon fontSize="xxs" />
-          </Avatar>
-          </Grid>
-          <Typography variant="h5" noWrap>
-            <h5 className='headerText iconColor' >SECURE CHECKOUT</h5>
-          </Typography>
+        <Toolbar className='headerBar'> 
+          <div>
+             <img className='logo' alt="header" src={shein} />
+          </div>
         </Toolbar>
       </AppBar>
       <Container component="main" maxWidth="sm" sx={{ mb: 4 }}>
